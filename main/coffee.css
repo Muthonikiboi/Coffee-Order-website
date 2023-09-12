@@ -6,7 +6,7 @@
 .section1{
     background-color: #65350F;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 .navbar{
     font-size: 25px;
@@ -64,7 +64,7 @@
   .words{
     float: left;
     width: 55%;
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   .words h1{
@@ -81,6 +81,15 @@
   }
 
   img{
-    height: 600px;
-    width:600px;
+    height: 500px;
+    width:800px;
+  }
+
+  .section2{
+    background: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+    width: 100%;
   }
