@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COffee Ordering Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="coffee.css">
 </head>
 <body>
-    
+    <section class="section1">
+        <header>
+            <div class="navbar" id="navbar">
+                <a href="#Home" class="active"><i class="fa fa-home" aria-hidden="true">Home</i></a>
+                <a href="#About"><i class="fa fa-coffee" aria-hidden="true">About</i></a>
+                <a href="#Services"><i class="fa fa-cogs" aria-hidden="true">Services</i></a>
+                <a href="#Contact"><i class="fa fa-phone" aria-hidden="true">Contact</i></a>
+                <a href="javascript:void(0);" class="icon" onclick="toggleFunction"><i class="fa fa-bars"></i></a>
+            </div>
+        </header>
+        <main>
+         <img src="../images/coffeebeans-cup.png" alt="">
+        </main>
+    </section>
+
+<script>
+    function toggleFunction(){
+    var x=document.getElementById("navbar");
+    if(x.className==="navbar"){
+        x.className += "responsive";
+    }else{
+        x.className ="topnav";
+    }
+}
+</script>
+<script src="coffee.js"></script>
 </body>
 </html>
