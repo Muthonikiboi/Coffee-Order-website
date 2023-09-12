@@ -60,3 +60,27 @@
     }
 
   }
+
+  .words{
+    float: left;
+    width: 55%;
+    margin-top: 200px;
+  }
+
+  .words h1{
+    font-size: 100px;
+  }
+  .words h3{
+    font-size: 50px;
+    font-family: Harrington;
+  }
+
+  .image{
+    float: right;
+    width: 45%;
+  }
+
+  img{
+    height: 600px;
+    width:600px;
+  }
